@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+
+    <TextView
+        android:id="@+id/tvSlogan"
+        android:text="Add New Product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSlogan"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+
+        <ImageView
+            android:id="@+id/ivKurta"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/kurta" />
+
+        <ImageView
+            android:id="@+id/ivKurtaSets"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/kurtasets" />
+
+        <ImageView
+            android:id="@+id/ivNehruJecket"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/nehrujacket" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LL1"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+
+        <ImageView
+            android:id="@+id/ivPyjamas"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pyjamas" />
+
+        <ImageView
+            android:id="@+id/ivSherwani"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sherwani" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LL2"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+
+        <ImageView
+            android:id="@+id/ivWKurtaSets"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/wkurtasets" />
+
+        <ImageView
+            android:id="@+id/ivDresses"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/dresses" />
+
+        <ImageView
+            android:id="@+id/ivDupatta"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/dupatta" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LL3"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+
+        <ImageView
+            android:id="@+id/ivWNehruJacket"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/wnehrujackets" />
+
+        <ImageView
+            android:id="@+id/ivSarees"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sarees" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</RelativeLayout>
